@@ -1,0 +1,25 @@
+a.no-uline:link    { text-decoration:none }
+a.no-uline:visited { text-decoration:none }
+a.no-uline:hover   { text-decoration:underline }
+a.no-uline:active  { text-decoration:none } 
+
+html { 
+	background: url("../img/index_background.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#logo_container {
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}
+
+#index_logo {
+    width: 10%;;
+    height: auto;
+
+}
