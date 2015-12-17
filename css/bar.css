@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+
+/* 1920 1080 */
+@media all and (min-width: 1920px) {
+
+#topbar {
+    width: 100%;
+    height: 100px;
+    background-color: #FF7B7B;
+    line-height: 100px;
+    position: fixed;
+}
+
+#logo_container {
+    max-width: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
+
+#name_container {
+    max-width: 400px;
+    max-height: 100px;
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+#menu_icon_container {
+    max-height: 100px;
+    max-width: 200px;
+    display: inline-block;
+    float: right;
+}
+
+#menu_icon_container input{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sidebar {
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    background-color: gray;
+    right: 0px;
+    z-index: -1;
+}
+
+.sidebar_student {
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    overflow-y: scroll;
+
+}
+
+.sidebar_student img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#left_sidebar {
+  border: 1px solid black;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  left: 0px;
+}
+
+#profile {
+  position: relative;
+  top: 100px;
+  border: 1px solid black;
+  width: 80%;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+#profile_img_container {
+  position: relative;
+  max-width: 100px;
+  max-height: 100px;
+  margin: auto;
+  display: inline-block;
+}
+
+#profile_img_container img{
+  width: 100px;
+  height: 100px;
+}
+
+#menu {
+  border: 1px solid black;
+  position: relative;
+  top: 200px;
+  width: 100%;
+  height: 40%;
+
+}
+
+#menu_title {
+  border: 1px solid black;
+  width: 80%;
+  height: 20%;
+  margin: auto;
+}
+
+.menu_container {
+  border: 1px solid black;
+  width: 80%;
+  height: 70px;
+  margin: auto;
+}
+
+#setting_container {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 150px;
+  margin-left: -35px;
+}
+
+#setting_container input {
+  width: 70px;
+}
+
+}
+
+
+
+/* 1280 1024 */
+@media all and (min-width:1280px) and (max-width: 1919px) {
+#topbar {
+    width: 100%;
+    height: 100px;
+    background-color: #FF7B7B;
+    line-height: 100px;
+    position: fixed;
+}
+
+#logo_container {
+    max-width: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
+
+#name_container {
+    max-width: 400px;
+    max-height: 100px;
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+#menu_icon_container {
+    max-height: 100px;
+    max-width: 200px;
+    display: inline-block;
+    float: right;
+}
+
+#menu_icon_container input{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sidebar {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    background-color: gray;
+    right: 0px;
+    z-index: -1;
+}
+
+.sidebar_student {
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    overflow-y: scroll;
+
+}
+
+.sidebar_student img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+}
+
+
+
+/* 768 1024 */
+@media all and (min-width:768px) and (max-width: 1280px){
+#topbar {
+    width: 100%;
+    height: 100px;
+    background-color: #FF7B7B;
+    line-height: 100px;
+    position: fixed;
+}
+
+#logo_container {
+    max-width: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
+
+#name_container {
+    max-width: 200px;
+    max-height: 100px;
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+#menu_icon_container {
+    max-height: 100px;
+    max-width: 200px;
+    display: inline-block;
+    float: right;
+}
+
+#menu_icon_container input{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#sidebar {
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    background-color: gray;
+    right: 0px;
+    z-index: -1;
+}
+
+.sidebar_student {
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    overflow-y: scroll;
+
+}
+
+.sidebar_student img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+
+
+}
+
+/* 320 640 */
+@media all and (min-width:320px) and (max-width: 767px){
+#topbar {
+    width: 100%;
+    height: 60px;
+    background-color: #FF7B7B;
+    line-height: 60px;
+    position: fixed;
+}
+
+#logo_container {
+    max-width: 100px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+}
+
+#logo_container img{
+    width: 100px;
+}
+
+#name_container {
+    max-width: 200px;
+    max-height: 30px;
+    float: right;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+#menu_icon_container {
+    max-width: 80px;
+    max-height: 40px;
+    display: inline-block;
+    float: right;
+}
+
+#menu_icon_container input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#sidebar {
+    visibility: hidden;
+}
+
+.sidebar_student {
+    visibility: hidden;
+
+}
+
+.sidebar_student img{
+    visibility: hidden;
+}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 1920 1080 */
+@media all and (min-width: 1920px) {
+
+#title {
+  border: 1px solid black;
+  width: 600px;
+  height: 100px;
+  position: relative;
+  left: 350px;
+  top: 150px;
+}
+
+#content_container {
+  border: 1px solid black;
+  width: 50%;
+  height: 60%;
+  position: relative;
+  left: 350px;
+  top: 300px;
+}
+
+.late_button{
+  width: 100px;
+  height: 40px;
+  float: right;
+  margin-left: 10px;
+}
+
+
+}

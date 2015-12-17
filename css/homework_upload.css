@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+  width: 600px;
+  height: 100px;
+  position: relative;
+  left: 350px;
+  top: 150px;
+}
+
+#textarea {
+  position: relative;
+  top: 200px;
+  left: 400px;
+  resize: none;
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+}
+
+#btn_container {
+  position: relative;
+  right: 550px;
+  top: 250px;
+  width: 270px;
+  height: auto;
+  float: right;
+}
+
+#btn_container input{
+  width: 100px;
+  margin-right: 30px;
+}
