@@ -1,0 +1,127 @@
+<!doctype html>
+{% load staticfiles %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="{% static 'css/teacher_index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bar.css' %}">
+
+
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="{% static 'js/respond.min.js' %}">
+    <![endif]-->
+</head>
+<body>
+    <div id="topbar">
+        <div id="logo_container">
+            <img src="{% static 'img/index_logo.png' %}">
+        </div>
+
+        <div id="menu_icon_container">
+            <input type="image" src="{% static 'img/noti.png' %}">
+            <input type="image" src="{% static 'img/menu_icon.png' %}">
+        </div>
+
+
+        <div id="name_container">
+            <img src="{% static 'img/topbar_profile.png' %}">
+            {{ request.session.name }} 선생님
+        </div>
+
+    </div>
+
+    <div id="sidebar">
+        <div class="sidebar_student">
+            <img src="{% static 'img/sidebar_profile.png' %}">
+            고유진
+        </div>
+    </div>
+
+
+
+
+    <div id="section1">
+
+        <div class="box">
+            <div class="box_img_container">
+                <img src="{% static 'img/topbar_profile.png'  %}">
+            </div>
+
+            <div class="box_text_container">
+                안녕하세요<br>선린인터넷고등학교<br>김정일 선생님
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="box_img_container">
+                <img src="{% static 'img/school_menu.png'  %}">
+            </div>
+
+            <div class="box_text_container">
+                <h1>등교관리</h1>
+
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="box_img_container">
+                <img src="{% static 'img/homework_menu.png'  %}">
+            </div>
+
+            <div class="box_text_container">
+                <h1>숙제관리</h1>
+
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="box_img_container">
+                <img src="{% static 'img/late_menu.png'  %}">
+            </div>
+
+            <div class="box_text_container">
+                <h1>지각관리</h1>
+
+            </div>
+
+        </div>
+
+
+        <div id="smallbox_container">
+             <div class="smallbox">
+                <div class="smallbox_img_container">
+                    <img src="{% static 'img/message.png'  %}">
+                </div>
+
+                <div class="box_text_container">
+                    메세지
+                </div>
+
+            </div>
+
+
+            <div class="smallbox">
+                <div class="smallbox_img_container">
+                    <img src="{% static 'img/setting.png'  %}">
+                </div>
+
+                <div class="box_text_container">
+                    설정
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+</html>
