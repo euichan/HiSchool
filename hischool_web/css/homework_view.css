@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+  width: 600px;
+  height: 100px;
+  position: relative;
+  left: 350px;
+  top: 150px;
+}
+
+#homework_container {
+  border: 1px solid black;
+  position: relative;
+  width: 70%;
+  height: 80%;
+  top: 200px;
+  left: 400px;
+}
+
+.homework {
+  border: 1px solid black;
+  position: relative;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  margin: 50px;
+}
+
+.homework_img_container {
+  max-width: 300px;
+  max-height: 150px;
+}
+
+.homework_img_container img {
+  width: 300px;
+}
+
+.homework_text_container {
+  border: 1px solid black;
+  width: 300px;
+  height: 50px;
+}
